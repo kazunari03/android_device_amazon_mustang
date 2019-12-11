@@ -131,7 +131,7 @@ TW_THEME := landscape_mdpi
 #TWRP_EVENT_LOGGING := true
 RECOVERY_TOUCHSCREEN_SWAP_XY := true
 #RECOVERY_GRAPHICS_USE_LINELENGTH := true
-#RECOVERY_TOUCHSCREEN_FLIP_Y := true 
+#RECOVERY_TOUCHSCREEN_FLIP_Y := true
 RECOVERY_TOUCHSCREEN_FLIP_X := true
 BOARD_HAS_FLIPPED_SCREEN := true
 
@@ -139,3 +139,7 @@ MALLOC_SVELTE := true
 
 # Disable API check
 WITHOUT_CHECK_API := true
+
+# For Oreo things
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifest.xml
+DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/configs/compatibility_matrix.xml
