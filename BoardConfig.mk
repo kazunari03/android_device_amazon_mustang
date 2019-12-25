@@ -52,7 +52,8 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_HAS_MTK_HARDWARE := true
 
 # Build a separate vendor.img
-TARGET_COPY_OUT_VENDOR := vendor
+# It’s temporary disabled due to boot?
+TARGET_COPY_OUT_VENDOR := system/vendor
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
